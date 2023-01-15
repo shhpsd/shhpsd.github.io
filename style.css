@@ -1,0 +1,244 @@
+:root {
+  --color-white: #ebe7e6;
+  --color-orange: #cd5334;
+}
+body {
+  font-family: "Rubik Mono One", sans-serif;
+  font-weight: 500;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+.bg-image {
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: contain;
+  height: 500px;
+  width: 500px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+}
+
+.item-list {
+  padding: 1rem;
+}
+h2 {
+  color: white;
+  margin: 0;
+}
+h3 {
+  color: white;
+}
+header {
+  position: absolute;
+  height: 10vh;
+}
+.presentation {
+  height: 100vh;
+  width: 100%;
+  background-color: rgba(182, 139, 65, 0.348);
+  background-image: url("/img/hd-wallpaper-g8415ff1ae_1920.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-flex-end {
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+  align-items: center;
+}
+
+.align-center {
+  align-items: center;
+}
+.h-parent {
+  height: inherit;
+}
+
+.title {
+  color: var(--color-white);
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 82, 51, 0.6) 0%,
+    rgba(28, 28, 28, 0.8) 35%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  margin-bottom: 0;
+  font-size: 2.8rem;
+  letter-spacing: 1rem;
+  padding: 1rem;
+  font-family: "Bayon", sans-serif;
+}
+
+.subtitle {
+  color: var(--color-white);
+  font-size: 2.2rem;
+  background: rgb(2, 0, 36);
+  background: linear-gradient(
+    90deg,
+    rgba(204, 82, 51, 0.6) 0%,
+    rgba(28, 28, 28, 0.8) 35%,
+    rgba(255, 255, 255, 0.3) 100%
+  );
+  padding: 1rem;
+  font-family: "Bayon", sans-serif;
+  letter-spacing: 0.5rem;
+}
+
+.btn-primary {
+  width: 200px;
+  height: 50px;
+  border: 2px solid var(--color-white);
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}
+.button-cv {
+  border: 2px solid var(--color-white);
+  border-radius: 2px;
+  cursor: pointer;
+  text-decoration: none;
+  background: transparent;
+  color: white;
+}
+
+.decoration {
+  background-color: var(--color-orange);
+  width: 100%;
+  height: 70px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+.proyectos {
+  height: 80vh;
+
+  background: rgba(0, 0, 0, 0.188);
+  position: relative;
+  padding: 2rem;
+
+  background-image: url("./img/keyboard-gbe950bae8_1920.jpg");
+}
+.proyectos::before {
+  content: " ";
+  background-color: rgba(0, 0, 0, 0.723);
+  position: absolute;
+  height: 100%;
+  inset: 0;
+  display: grid;
+}
+
+.slider {
+  height: 100vh;
+}
+.glide {
+  height: 100vh;
+}
+
+.card-project {
+  display: flex;
+  height: inherit;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* Projects */
+.img-project {
+  width: 100vw;
+  height: 400px;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+}
+
+
+
+.project1 {
+  background-image: url("./img/projects/QuizApp.png");
+}
+.project2 {
+  background-image: url("./img/projects/Gestordecitas.png");
+}
+.project3 {
+  background-image: url("./img/projects/Criptos.png");
+}
+.project4 {
+  background-image: url("./img/projects/Criptos.png");
+}
+
+
+
+.bottom-card {
+  height: 100%;
+  width: 100%;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 1rem;
+}
+
+.skills {
+  display: flex;
+  color: #ebe7e6;
+}
+.skills li {
+  padding: 1rem;
+}
+
+.glide__arrows {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.glide__arrow {
+  background-color: transparent;
+  color: white;
+  font-size: 3rem;
+}
+
+
+footer{
+  height: 20vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer ul{
+  display: flex;
+}
+
+footer ul li{
+  padding: 1rem;
+}
+
+footer ul li a{
+  color: #cd5334;
+}
