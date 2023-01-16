@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "@glidejs/glide": "^3.6.0"
-  }
+  },
+  "name": "portafolio",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shhpsd/shhpsd.github.io.git"
+  },
+  "author": "Pau Saez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shhpsd/shhpsd.github.io/issues"
+  },
+  "homepage": "https://github.com/shhpsd/shhpsd.github.io#readme",
+  "description": ""
 }
