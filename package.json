@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "@glidejs/glide": "^3.6.0"
-  },
   "name": "portafolio",
   "version": "1.0.0",
   "main": "index.html",
@@ -18,5 +15,8 @@
     "url": "https://github.com/shhpsd/shhpsd.github.io/issues"
   },
   "homepage": "https://github.com/shhpsd/shhpsd.github.io#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "swiper": "^8.4.6"
+  }
 }

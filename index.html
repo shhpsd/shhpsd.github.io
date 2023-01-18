@@ -12,12 +12,22 @@
     />
     <link
       rel="stylesheet"
-      href="/node_modules/@glidejs/glide/dist/css/glide.core.min.css"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
     />
-    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Bayon&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bayon&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/edd81141ef.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/edd81141ef.js"
+      crossorigin="anonymous"
+    ></script>
     <title>Portafolio</title>
   </head>
   <body>
@@ -48,114 +58,86 @@
         <h2 class="text-projects">Proyectos</h2>
       </div>
       <section class="proyectos">
-        
-        <div class="slider">
-            
-          <div class="glide">
-            <div class="glide__track" data-glide-el="track">
-            
-            <ul class="glide__slides">
-              <li class="glide__slide">
-                <div class="card-project">
-                  <h3>Quiz App</h3>
-
-                  <div class="img-project project1"></div>
-                  <div class="bottom-card">
-                    <button class="btn-primary">Ver</button>
-                    <ul class="skills">
-                      <li><i class="fab fa-brands fa-js fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
-                    </ul>
-                  </div>
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="card-project">
+                <h3>Cotizador Criptomonedas</h3>
+                <div class="img-project">
+                  <img src="./img/projects/Criptos.png" alt="">
                 </div>
-              </li>
-              <li class="glide__slide">
-                <div class="card-project">
-                  <h3>Gestor Pacientes</h3>git@github.com:shhpsd/shhpsd.github.io.git
-
-                  <div class="img-project project2"></div>
-                  <div class="bottom-card">
-                    <button class="btn-primary">Ver</button>
-                    <ul class="skills">
-                      <li><i class="fab fa-brands fa-react fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
-                    </ul>
-                  </div>
+                <div class="bottom-card">
+                  <button class="btn-primary">Ver</button>
+                  <ul class="skills">
+                    <li><i class="fab fa-brands fa-react fa-2x"></i></li>
+                    <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
+                    <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
+                  </ul>
                 </div>
-              </li>
-              <li class="glide__slide">
-                <div class="card-project">
-                  <h3>Cotizador de criptomonedas</h3>
-                  <div class="img-project project3"></div>
-                  <div class="bottom-card">
-                    <button class="btn-primary">Ver</button>
-                    <ul class="skills">
-                      <li><i class="fab fa-brands fa-react fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
-                    </ul>
-                  </div>
-                
-                </div>
-              </li>
-              <li class="glide__slide">
-                <div class="card-project">
-                  <h3>CRM</h3>
-                  <div class="img-project project3"></div>
-                  <div class="bottom-card">
-                    <button class="btn-primary">Ver</button>
-                    <ul class="skills">
-                      <li><i class="fab fa-brands fa-react fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
-                      <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
-                    </ul>
-                  </div>
-                </div>
-              </li>
-            </ul>
-           
-              <div class="glide__arrows" data-glide-el="controls">
-                <button
-                  class="glide__arrow glide__arrow--left"
-                  data-glide-dir="<"
-                >
-                  <
-                </button>
-                <button
-                  class="glide__arrow glide__arrow--right"
-                  data-glide-dir=">"
-                >
-                  >
-                </button>
-            
-          </div>
-            
-            
             </div>
           </div>
-        </div>
+            <div class="swiper-slide">
+              <div class="card-project">
+                <h3>QuizApp</h3>
+                <div class="img-project">
+                  <img src="./img/projects/QuizApp.png" alt="">
+                </div>
+                <div class="bottom-card">
+                  <button class="btn-primary">Ver</button>
+                  <ul class="skills">
+                    <li><i class="fab fa-brands fa-react fa-2x"></i></li>
+                    <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
+                    <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card-project">
+                <h3>Gestor de citas</h3>
+                <div class="img-project">
+                  <img src="./img/projects/Gestordecitas.png" alt="">
+                </div>
+                <div class="bottom-card">
+                  <button class="btn-primary">Ver</button>
+                  <ul class="skills">
+                    <li><i class="fab fa-brands fa-js fa-2x"></i></li>
+                    <li><i class="fa fa-regular fa-html5 fa-2x"></i></li>
+                    <li><i class="fa fa-regular fa-css3 fa-2x"></i></li>
+                  </ul>
+                </div>
+              </div>
+            </div>  
+                
+          </div>
       </section>
     </main>
     <footer>
       <ul>
-        <li><a><i class="fa fa-brands fa-linkedin fa-2x"></i></a></li>
-        <li><a><i class="fa fa-brands fa-github fa-2x"></i></a></li>
-        <li><a><i class="fa fa-solid fa-envelope fa-2x"></i></a></li>
+        <li>
+          <a><i class="fa fa-brands fa-linkedin fa-2x"></i></a>
+        </li>
+        <li>
+          <a><i class="fa fa-brands fa-github fa-2x"></i></a>
+        </li>
+        <li>
+          <a><i class="fa fa-solid fa-envelope fa-2x"></i></a>
+        </li>
       </ul>
     </footer>
   </body>
- 
-  <script src="/node_modules/@glidejs/glide/dist/glide.js"></script>
-  <script>
-    new Glide(document.querySelector(".glide"), {
-      type: "slider",
-      startAt:0,
-      slideToShow: 2,
-      sliderToScroll: 2,
-      focusAt:'center',
-      autoplay: 10000,
-    }).mount();
+  <script type="module">
+    import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+  
+    const swiper = new Swiper('.swiper', {
+  // Optional parameters
+  direction: 'horizontal',
+  loop: true,
+  autoplay: {
+   delay: 10000,
+ },
+});
   </script>
 </html>

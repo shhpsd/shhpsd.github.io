@@ -134,11 +134,9 @@ header {
 }
 .proyectos {
   height: 80vh;
-
   background: rgba(0, 0, 0, 0.188);
   position: relative;
   padding: 2rem;
-
   background-image: url("./img/keyboard-gbe950bae8_1920.jpg");
 }
 .proyectos::before {
@@ -153,8 +151,9 @@ header {
 .slider {
   height: 100vh;
 }
-.glide {
+.swiper {
   height: 100vh;
+  width: 100%;
 }
 
 .card-project {
@@ -166,29 +165,17 @@ header {
 
 /* Projects */
 .img-project {
-  width: 100vw;
-  height: 400px;
-  background-position: center;
-  background-size: contain;
-  background-repeat: no-repeat;
-  align-self: center;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
 }
-
-
-
-.project1 {
-  background-image: url("./img/projects/QuizApp.png");
+.img-project img{
+    height: 100%;
+    width: 50%;
 }
-.project2 {
-  background-image: url("./img/projects/Gestordecitas.png");
-}
-.project3 {
-  background-image: url("./img/projects/Criptos.png");
-}
-.project4 {
-  background-image: url("./img/projects/Criptos.png");
-}
-
 
 
 .bottom-card {
@@ -208,19 +195,6 @@ header {
   padding: 1rem;
 }
 
-.glide__arrows {
-  display: flex;
-  justify-content: space-between;
-  position: absolute;
-  top: 50%;
-  width: 100%;
-}
-
-.glide__arrow {
-  background-color: transparent;
-  color: white;
-  font-size: 3rem;
-}
 
 
 footer{
