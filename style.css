@@ -167,10 +167,21 @@ header {
   height: inherit;
   flex-direction: column;
   width: 70%;
-
   display: flex;
   justify-content: center;
+
+  
 }
+
+
+@media (max-width: 768px) {
+  .card-project{
+    width: 100%;
+  }
+}
+
+
+
 
 /* Projects */
 .img-project {
