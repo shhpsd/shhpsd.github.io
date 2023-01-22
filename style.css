@@ -133,11 +133,12 @@ header {
   display: flex;
 }
 .proyectos {
-  height: 100vh;
   background: rgba(0, 0, 0, 0.188);
   position: relative;
   padding: 2rem;
   background-image: url("./img/keyboard-gbe950bae8_1920.jpg");
+  display: flex;
+  justify-content: center;
 }
 .proyectos::before {
   content: " ";
@@ -148,35 +149,50 @@ header {
   display: grid;
 }
 
-.slider {
-  height: 100vh;
-}
+
 .swiper {
   height: 100vh;
   width: 100%;
+  
+  
+}
+
+.swiper-slide{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .card-project {
-  display: flex;
   height: inherit;
-  justify-content: center;
   flex-direction: column;
+  width: 70%;
 }
 
 /* Projects */
 .img-project {
+  min-height: 60%;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-.img-project img{
 
-    object-fit: contain;
-    height: 100%;
-    max-width: 100%;
+.img-1{
+  background-image: url("./img/projects/Gestordecitas.png") ;
 }
+.img-2{
+  background-image: url("./img/projects/Criptos.png") ;
+  
+}
+.img-3{
+  background-image: url("./img/projects/QuizApp.png") ;
+}
+
 
 
 .bottom-card {
