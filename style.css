@@ -174,7 +174,7 @@ header {
 }
 .img-project img{
     height: 100%;
-    width: 50%;
+    width: 100%;
 }
 
 
@@ -194,8 +194,6 @@ header {
 .skills li {
   padding: 1rem;
 }
-
-
 
 footer{
   height: 20vh;
