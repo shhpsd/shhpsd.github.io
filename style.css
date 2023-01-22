@@ -167,6 +167,9 @@ header {
   height: inherit;
   flex-direction: column;
   width: 70%;
+
+  display: flex;
+  justify-content: center;
 }
 
 /* Projects */
