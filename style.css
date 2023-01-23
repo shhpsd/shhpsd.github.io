@@ -178,8 +178,8 @@ header {
 
 @media (max-width: 768px) {
   .card-project{
-    width: 100%;
-    height: 50%;
+    width: 80%;
+    height: 60%;
     text-align: center;
   }
 }
@@ -200,7 +200,7 @@ header {
 @media (max-width: 768px) {
 
   .img-project {
-    min-height: 30%;
+    min-height: 40%;
   }
 }
 
