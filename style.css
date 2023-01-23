@@ -152,38 +152,40 @@ header {
 
 .swiper {
   height: 100vh;
-  width: 100%;
-  
-  
+  width: 100%; 
+  padding: 1rem;
 }
 
 .swiper-slide{
   display: flex;
   align-items: center;
   justify-content: center;
+  
 }
 
 .card-project {
   height: inherit;
   flex-direction: column;
   width: 70%;
+  height: 80%;
   display: flex;
   justify-content: center;
+  border: none 1px #fff;
+  box-shadow: 3px 6px 6px 3px rgba(256, 256, 256, 0.188);
+  padding: 1rem;
 }
 
 
 @media (max-width: 768px) {
   .card-project{
     width: 100%;
+    height: 50%;
+    text-align: center;
   }
 }
 
-
-
-
 /* Projects */
 .img-project {
-  
   min-height: 70%;
   width: 100%;
   display: flex;
@@ -198,7 +200,7 @@ header {
 @media (max-width: 768px) {
 
   .img-project {
-    min-height: 40%;
+    min-height: 30%;
   }
 }
 
@@ -213,14 +215,18 @@ header {
   background-image: url("./img/projects/QuizApp.png") ;
 }
 
-
-
 .bottom-card {
   width: 100%;
   align-items: center;
   justify-content: space-between;
   display: flex;
   margin-top: 1rem;
+}
+@media (max-width: 768px) {
+  .bottom-card {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .skills {
@@ -229,6 +235,14 @@ header {
 }
 .skills li {
   padding: 1rem;
+  
+}
+@media (max-width: 768px) {
+
+  .skills {
+    padding: 0;
+    
+  }
 }
 
 footer{
