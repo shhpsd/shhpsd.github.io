@@ -225,7 +225,7 @@ header {
 @media (max-width: 768px) {
   .bottom-card {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
   }
 }
 
