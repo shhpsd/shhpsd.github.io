@@ -169,8 +169,6 @@ header {
   width: 70%;
   display: flex;
   justify-content: center;
-
-  
 }
 
 
@@ -185,7 +183,8 @@ header {
 
 /* Projects */
 .img-project {
-  min-height: 60%;
+  
+  min-height: 70%;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -194,6 +193,13 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+@media (max-width: 768px) {
+
+  .img-project {
+    min-height: 40%;
+  }
 }
 
 .img-1{
