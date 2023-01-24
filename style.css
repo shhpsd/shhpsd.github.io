@@ -185,14 +185,13 @@ header {
   justify-content: center;
   border: solid 6px #fff;
   border-radius: 1rem;
-  
   padding: 3rem;
 } 
 
 @media (max-width: 768px) {
   .card-project{
-    width: 80%;
-    height: 60%;
+    width: 100%;
+    height: 50%;
     text-align: center;
   }
 }
