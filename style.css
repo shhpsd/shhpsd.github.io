@@ -140,6 +140,13 @@ header {
   display: flex;
   justify-content: center;
 }
+@media (max-width: 768px) {
+  .proyectos {
+    padding: 0;
+  }
+
+}
+
 .proyectos::before {
   content: " ";
   background-color: rgba(0, 0, 0, 0.723);
